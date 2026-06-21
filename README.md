@@ -40,11 +40,11 @@ A Python-based desktop application that combines **secure user authentication** 
 
  Technology                 |                 Purpose 
 
- Python 3.x                 |          Core programming language 
- Tkinter                    |           GUI development 
- SQLite3                    |           Local database storage 
- hashlib (SHA-256)          |             Password hashing 
- time                       |              Real-time clock 
+ Python 3.x                 |          Core programming language,  
+ Tkinter                    |           GUI development,  
+ SQLite3                    |           Local database storage,  
+ hashlib (SHA-256)          |             Password hashing,  
+ time                       |              Real-time clock,  
 
 
 ##  Repository Structure
@@ -81,11 +81,11 @@ python main.py
 
  Indicator                                                |           Score  
 
- '@' symbol in URL                                        |            +20 
- HTTP instead of HTTPS                                    |            +20 
- Hyphens in domain                                        |            +10 
- URL length > 30 chars                                    |            +10 
- Suspicious keywords (login, verify, bank, free, bonus)   |          +10 each 
+ '@' symbol in URL                                        |            +20,  
+ HTTP instead of HTTPS                                    |            +20,  
+ Hyphens in domain                                        |            +10,  
+ URL length > 30 chars                                    |            +10,  
+ Suspicious keywords (login, verify, bank, free, bonus)   |          +10 each,  
 
 
 
@@ -93,9 +93,9 @@ python main.py
 
 Fake Score             |               Verdict 
 
- 0 - 39                |               Safe 
- 40 - 69               |             Suspicious 
- 70 - 100              |             Dangerous 
+ 0 - 39                |               Safe,  
+ 40 - 69               |             Suspicious,  
+ 70 - 100              |             Dangerous,  
 
 
  
